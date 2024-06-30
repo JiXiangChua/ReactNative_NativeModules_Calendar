@@ -12,6 +12,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		63C141142C31570A004B0955 /* RCTCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C141132C31570A004B0955 /* RCTCalendarModule.m */; };
+		63C141152C31570A004B0955 /* RCTCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C141132C31570A004B0955 /* RCTCalendarModule.m */; };
 		6E341A1F99E79F8D097F5DC0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AD94A3B496392F9E2148081B /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-RNNativeCalendarApp-RNNativeCalendarAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNNativeCalendarApp-RNNativeCalendarAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -43,9 +45,11 @@
 		5709B34CF0A7D63546082F79 /* Pods-RNNativeCalendarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNativeCalendarApp.release.xcconfig"; path = "Target Support Files/Pods-RNNativeCalendarApp/Pods-RNNativeCalendarApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNNativeCalendarApp-RNNativeCalendarAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNativeCalendarApp-RNNativeCalendarAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RNNativeCalendarApp-RNNativeCalendarAppTests/Pods-RNNativeCalendarApp-RNNativeCalendarAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNNativeCalendarApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNativeCalendarApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C141122C315660004B0955 /* RCTCalendarModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCalendarModule.h; sourceTree = "<group>"; };
+		63C141132C31570A004B0955 /* RCTCalendarModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCalendarModule.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNNativeCalendarApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNNativeCalendarApp-RNNativeCalendarAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNativeCalendarApp-RNNativeCalendarAppTests.release.xcconfig"; path = "Target Support Files/Pods-RNNativeCalendarApp-RNNativeCalendarAppTests/Pods-RNNativeCalendarApp-RNNativeCalendarAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		AD94A3B496392F9E2148081B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = RNNativeCalendarApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AD94A3B496392F9E2148081B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = RNNativeCalendarApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -97,6 +101,8 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				AD94A3B496392F9E2148081B /* PrivacyInfo.xcprivacy */,
+				63C141122C315660004B0955 /* RCTCalendarModule.h */,
+				63C141132C31570A004B0955 /* RCTCalendarModule.m */,
 			);
 			name = RNNativeCalendarApp;
 			sourceTree = "<group>";
@@ -391,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* RNNativeCalendarAppTests.m in Sources */,
+				63C141152C31570A004B0955 /* RCTCalendarModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C141142C31570A004B0955 /* RCTCalendarModule.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -472,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM4TM2M7C3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNNativeCalendarApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM4TM2M7C3;
 				INFOPLIST_FILE = RNNativeCalendarApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -590,10 +600,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -665,10 +672,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

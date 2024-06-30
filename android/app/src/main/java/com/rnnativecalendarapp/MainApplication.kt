@@ -19,6 +19,7 @@ class MainApplication : Application(), ReactApplication {
             PackageList(this).packages.apply {
               // Packages that cannot be autolinked yet can be added manually here, for example:
               // add(MyReactNativePackage())
+                add(MyAppPackage()) // To register the CalendarModule package, you must add MyAppPackage to the list of packages returned in ReactNativeHost's getPackages() method.
             }
 
         override fun getJSMainModuleName(): String = "index"
